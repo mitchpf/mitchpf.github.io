@@ -21,9 +21,9 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar48"><img src="images/Mitch.jpg" alt="" /></span>
-							<h1 id="title">Mitchell Ford, PhD</h1>
-							<p>Postdoctoral Research Associate</p>
+							<span class="image avatar48"><img src="images/Mitch.jpg" alt="Mitch" /></span>
+							<h1 id="title">Mitchell Ford</h1>
+							<p>Postdoctoral Researcher</p>
 						</div>
 
 					<!-- Nav -->
@@ -58,7 +58,7 @@
 			<div id="main">
 
 				<!-- Intro -->
-					<section id="top" class="one dark cover">
+					<section id="top" name="top" class="one dark cover">
 						<div class="container">
 							<header>
 							<div class="row">
@@ -86,7 +86,7 @@
 							<p>I apply Mechanical Engineering approaches to study how animals interact with the physical world around them. I am particularly interested in how aquatic animals use their bodies to generate the propulsive forces necessary for swimming while simulataneously transducing hydrodynamic signals in order to detect prey and avoid predators.</p>
 
 							<footer>
-								<a href="./vita.html" class="button scrolly">Curriculum Vitae</a>
+								<a href="./vita.html" class="button scrolly">Curriculum Vita</a>
 							</footer>
 							
 						</div>
@@ -103,7 +103,7 @@
 							<div class="row">
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="./Cteno.html" class="image fit"><img src="images/Cteno.png" alt="Ctenophore" /></a>
+										<a href="./cteno.html" class="image fit"><img src="images/Cteno.png" alt="Ctenophore" /></a>
 										<header>
 											<h3>Ctenophore feeding hydrodynamics</h3>
 										</header>
@@ -111,7 +111,7 @@
 								</div>
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="./Jelly.html" class="image fit"><img src="images/Aurelia.png" alt="Aurelia" /></a>
+										<a href="./jelly.html" class="image fit"><img src="images/Aurelia.png" alt="Aurelia" /></a>
 										<header>
 											<h3>Jellyfish biomechanics</h3>
 										</header>
@@ -119,7 +119,7 @@
 								</div>
 								<div class="col-4 col-12-mobile">
 										<article class="item">
-										<a href="./Paddling.html" class="image fit"><img src="images/Krillbot.png" alt="Krillbot" /></a>
+										<a href="./paddling.html" class="image fit"><img src="images/Krillbot.png" alt="Krillbot" /></a>
 										<header>
 											<h3>Metachronal swimming hydrodynamics</h3>
 										</header>
@@ -193,33 +193,30 @@
 					</section>
 
 				<!-- Contact -->
-					<section id="contact" class="four">
-						<div class="container">
+				<section id="contact" class="four">
+					<div class="container">
+							
+					<form action="action_page.php">
+					
+					<header>
+					<h2>Contact Me</h2>
+					</header>
 
-							<!-- <header>
-								<h2>Contact</h2>
-							</header>
+					<label for="fname">Name</label>
+					<input type="text" id="fname" name="yourname" placeholder="Your name">
 
-							<p>Contact Me!</p>
+					<label for="subject">Subject</label>
+					<input type="text" id="subject" name="subject" placeholder="Subject">
+					
+					<label for="message">Message</label>
+					<textarea id="message" name="message" placeholder="Message"></textarea>
 
-							<form method="post" action="#">
-								<div class="row">
-									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
-									<div class="col-12">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-									<div class="col-12">
-										<input type="submit" value="Contact Me" />
-									</div>
-								</div>
-							</form>
-							-->
-						<div class="col-12"><a href="mailto:ford.mitchell@proton.me"></a>
-							<input type="submit" value="Contact Me" />
-						</div>
-						</div>
-					</section>
+					<input type="submit" value="Submit" style="margin-top:12pt">
+
+					</form>
+					</div> 
+			
+				</section>
 
 			</div>
 
